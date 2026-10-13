@@ -1,8 +1,51 @@
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python / Django
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+django-env/
+venv/
+.venv/
+
+# ==============================
+# Node
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# Frontend builds
+# ==============================
+client/dist/
+client/.vite/
+
+# ==============================
+# macOS
+# ==============================
 .DS_Store
 
-client/node_modules
-server/node_modules
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
 
-.env
-client/dist
-server/dist
+# ==============================
+# Temporary files
+# ==============================
+*.log
+*.tmp
